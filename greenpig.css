@@ -1,0 +1,21 @@
+body {
+    font-family: "Monteserrat", sans-serif;
+}
+
+.wrapper {
+    background-color: #444444;
+    margin: 0 auto;
+    width: 50%;
+}
+
+h1 {
+    color:  #BBBBBB;
+    text-align: center;
+}
+
+.output {
+    background-color:  #EEEEEE;
+    color: #33AAFF;
+    font-size: 1.6em;
+    text-align: center;
+}
