@@ -1,3 +1,5 @@
+// GitHub repo naming
+
 var colorArray = ["aliceBlue", "antiqueWhite", "aqua", "aquamarine", "azure", "beige",
 "bisque", "black", "blanchedAlmond", "blue", "blueViolet", "brown",
 "burlyWood", "cadetBlue", "chartreuse", "chocolate", "coral", "cornflowerBlue",
@@ -12,3 +14,4 @@ function getRandomElement(choiceArray) {
 }
 
 outputDiv.innerHTML = `${getRandomElement(colorArray)}-${getRandomElement(animalArray)}`;
+
