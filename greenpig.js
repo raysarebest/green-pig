@@ -4,8 +4,13 @@ var colorArray = ["aliceBlue", "antiqueWhite", "aqua", "aquamarine", "azure", "b
 "bisque", "black", "blanchedAlmond", "blue", "blueViolet", "brown",
 "burlyWood", "cadetBlue", "chartreuse", "chocolate", "coral", "cornflowerBlue",
 "cornsilk", "crimson", "cyan", "darkBlue", "darkCyan", "darkGoldenRod",
-"red", "orange", "yellow", "green", "purple"];
-var animalArray = ["cat", "pig", "monkey", "dog","horse", "rhino", "elephant", "cow", "whale", "dolphin"];
+"red", "orange", "yellow", "green", "purple"
+];
+var animalArray = ["crake","buffalo", "eagle", "lion", "lynx", "porcupine", "hedgehog", "snake",
+"lizard", "turtle", "rabbit", "hare", "mouse", "rat", "squirrel", "cat", "pig", "monkey", "dog",
+"horse", "rhino", "elephant", "cow", "whale", "dolphin", "wallaby", "kangaroo", "fox", "tern", "lemming",
+"zebra", "gecko", "mongoose", "deer"
+];
 var outputDiv = document.querySelectorAll(".output")[0];
 
 function getRandomElement(choiceArray) {
@@ -13,5 +18,9 @@ function getRandomElement(choiceArray) {
     return choiceArray[randomElement];
 }
 
-outputDiv.innerHTML = `${getRandomElement(colorArray)}-${getRandomElement(animalArray)}`;
+var namesText = "";
+for(var i = 0; i < 10; i++) {
+    namesText += `${getRandomElement(colorArray)}-${getRandomElement(animalArray)}<br />`;
+}
+outputDiv.innerHTML = namesText;
 
