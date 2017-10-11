@@ -6,11 +6,13 @@ var colorArray = ["aliceBlue", "antiqueWhite", "aqua", "aquamarine", "azure", "b
 "cornsilk", "crimson", "cyan", "darkBlue", "darkCyan", "darkGoldenRod",
 "red", "orange", "yellow", "green", "purple"
 ];
+
 var animalArray = ["crake","buffalo", "eagle", "lion", "lynx", "porcupine", "hedgehog", "snake",
 "lizard", "turtle", "rabbit", "hare", "mouse", "rat", "squirrel", "cat", "pig", "monkey", "dog",
 "horse", "rhino", "elephant", "cow", "whale", "dolphin", "wallaby", "kangaroo", "fox", "tern", "lemming",
-"zebra", "gecko", "mongoose", "deer"
+"zebra", "gecko", "mongoose", "deer", "penguin", "barracuda"
 ];
+
 var outputDiv = document.querySelectorAll(".output")[0];
 
 function getRandomElement(choiceArray) {
