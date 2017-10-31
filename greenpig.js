@@ -22,7 +22,7 @@ function getRandomElement(choiceArray) {
 
 var namesText = "";
 for(var i = 0; i < 10; i++) {
-    namesText += `${getRandomElement(colorArray)}-${getRandomElement(animalArray)}<br />`;
+    namesText += getRandomElement(colorArray) + "-" getRandomElement(animalArray) + "<br/>";
 }
 outputDiv.innerHTML = namesText;
 
